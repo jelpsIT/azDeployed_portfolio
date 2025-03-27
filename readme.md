@@ -6,4 +6,4 @@ State: Built a dynamic site with animations, Poppins font, and Tailwind CSS.
 
 Tools: Azure portal, Github, VS Code, Powershell, Azure CLI
 
-Outcome: A live website (joshdobson.azurewebsites.net) with an automated pipeline and monitoring dashboard.
+Outcome: A live website (https://jelps-portfolio.azurewebsites.net) with an automated pipeline and monitoring dashboard.
