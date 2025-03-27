@@ -1,9 +1,15 @@
-Project Overview
+# Azure-Deployed Portfolio
+A dynamic portfolio site showcasing my transition to Cloud Engineering, deployed on Azure App Service with CI/CD and monitoring.
 
-Goal: Deploy a dynamic personal portfolio website to Azure app service, automate deployments with Github actions, and monitor it with Azure Application Insights.
+## Features
+- **Live URL**: [https://jelps-portfolio.azurewebsites.net](https://jelps-portfolio.azurewebsites.net)
+- **Tech**: HTML, CSS (Tailwind), JavaScript with animations, Poppins font
+- **CI/CD**: Automated deployments via GitHub Actions
+- **Monitoring**: Real-time tracking with Azure Application Insights
 
-State: Built a dynamic site with animations, Poppins font, and Tailwind CSS.
+## Setup
+1. Clone: `git clone https://github.com/jelpsIT/azDeployed_portfolio.git`
+2. Deploy to Azure App Service (see Azure docs).
+3. Configure GitHub Actions with publish profile secret.
 
-Tools: Azure portal, Github, VS Code, Powershell, Azure CLI
-
-Outcome: A live website (https://jelps-portfolio.azurewebsites.net) with an automated pipeline and monitoring dashboard.
+## Screenshots
