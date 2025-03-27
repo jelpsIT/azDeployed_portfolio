@@ -13,3 +13,6 @@ A dynamic portfolio site showcasing my transition to Cloud Engineering, deployed
 3. Configure GitHub Actions with publish profile secret.
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/4c91591e-b90a-42db-bc9c-ab72d2b1609a)
+![image](https://github.com/user-attachments/assets/f42f5983-fc94-4c35-9aea-a1c4dc91f4b8)
+![image](https://github.com/user-attachments/assets/5b5124a1-8a1a-4b30-afcc-5195128e5166)
