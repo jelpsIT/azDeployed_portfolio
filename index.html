@@ -3,51 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josh Dobson | IT Project Engineer Portfolio</title>
+    <title>Josh Dobson | IT Projects Engineer Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Josh Dobson</h1>
-        <p>Cloud Automation Engineer in Training | IT Support Veteran</p>
+<body class="bg-gray-100 text-gray-800 font-poppins">
+    <header class="bg-blue-600 text-white py-6 px-8 fixed w-full top-0 z-10 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQG00hqMToHBZQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697581516885?e=1748476800&v=beta&t=mJJGOwTGqcfKx34PlnGpM5lvrmVAgHJdh_1rdi3bqkI" alt="Profile" class="w-14 h-14 rounded-full mr-4 hover:scale-110 transition-transform duration-300">
+                <div>
+                    <h1 class="text-3xl font-bold">Josh Dobson</h1>
+                    <p id="tagline" class="text-lg italic"></p>
+                </div>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#career" class="hover:text-yellow-300 transition-colors duration-200">Career</a></li>
+                    <li><a href="#voluntary-work" class="hover:text-yellow-300 transition-colors duration-200">Voluntary Work</a></li>
+                    <li><a href="#skills" class="hover:text-yellow-300 transition-colors duration-200">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="career">
-        <h2>Career</h2>
-        <p>Over 6 years at Lead Forensics, delivering IT support, infrastructure and automation solutions across UK and US offices.</p>
-        <ul>
-            <li><strong>IT Support Projects Engineer (2023-Present)</strong>: Managing Microsoft 365, Azure, and automation projects for 500+ users.</li>
-            <li><strong>Senior IT Systems Administrator (2021-2023)</strong>: Focus cybersecurity, intune, network upgrades and automations.</li>
-            <li><strong>IT Administrator (2020-2021)</strong>: Supported hardware, phone systems, and Windows/Mac environments.</li>
-            <li><strong>Lead Generation & Marketing (2018-2020)</strong>: Drove revenue via LinkedIn campaigns and B2B personalization at Webeo.</li>
-        </ul>
-    </section>
-
-    <section id="voluntary-work">
-        <h2>Voluntary Work</h2>
-        <p>IT Volunteer in Zambia (Sept 2022) - Chingola, Copperbelt Province</p>
-        <ul>
-            <li>Repaired laptops and taught hardware basics (e.g., thermal paste application) at Ipalo Christian School.</li>
-            <li>Installed eBook readers with IT and programming resources (C++, JavaScript) for teachers and students.</li>
-            <li>Taught IT classes to kids, leaving a lasting impact in a humbling experience.</li>
-        </ul>
-    </section>
-
-    <section id="skills">
-        <h2>Skillset</h2>
-        <p>Technical expertise honed over years in IT and now pivoting to cloud engineering.</p>
-        <div class="skills-container">
-            <ul>
-                <li><strong>Cloud & Infrastructure</strong>: Azure, Microsoft 365, Windows Server, Hypervisor</li>
-                <li><strong>Programming & Automation</strong>: Python, Powershell, C++/C#, REST APIs, Freshservice Automation</li>
-                <li><strong>Networking & Security</strong>: DNS, DHCP, FortiNet, Network Security, MDM Deployment</li>
-                <li><strong>Soft Skills</strong>: Project Management, Customer Service, Collaborative Work</li>
+    <main class="container mx-auto mt-24 px-4">
+        <section id="career" class="bg-white p-8 rounded-lg shadow-md mb-10 transform transition-all duration-500 hover:shadow-xl hover:-translate-y-1">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-4">Career</h2>
+            <p class="mb-4">Over 6 years at Lead Forensics, delivering IT support and automated solutions across UK and US offices.</p>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>IT Support Projects Engineer (2023-Present)</strong>: Managing Microsoft 365, Intune, Azure, OpSec and automation projects for 500+ users.</li>
+                <li><strong>Senior IT Systems Administrator (2021-2023)</strong>: Focus cybersecurity, Office 365, and automations in Portsmouth.</li>
+                <li><strong>IT Administrator (2020-2021)</strong>: Supported hardware, phone systems, and Windows/Mac environments.</li>
+                <li><strong>Lead Generation & Marketing (2018-2020)</strong>: Drove revenue via LinkedIn campaigns and B2B personalization at Webeo.</li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <p>Explore my projects on <a href="https://github.com/jelpsIT/">GitHub</a> | Connect on <a href="https://www.linkedin.com/in/josh-dobson-/">LinkedIn</a></p>
+        <section id="voluntary-work" class="bg-white p-8 rounded-lg shadow-md mb-10 transform transition-all duration-500 hover:shadow-xl hover:-translate-y-1">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-4">Voluntary Work</h2>
+            <p class="mb-4">IT Volunteer in Zambia (Sept 2022) - Chingola, Copperbelt Province</p>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Repaired laptops and taught hardware basics (e.g., thermal paste application) at Ipalo Christian School.</li>
+                <li>Installed eBook readers with IT and programming resources (C++, JavaScript) for teachers and students.</li>
+                <li>Taught IT classes to kids, leaving a lasting impact in a humbling experience.</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="bg-white p-8 rounded-lg shadow-md transform transition-all duration-500 hover:shadow-xl hover:-translate-y-1">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-4">Skillset</h2>
+            <p class="mb-4">Technical expertise honed over years in IT and now pivoting to cloud engineering.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="skill-card p-4 bg-gray-50 rounded hover:bg-blue-50 transition-colors duration-300">
+                    <h3 class="text-lg font-medium">Cloud & Infrastructure</h3>
+                    <ul class="list-disc pl-4 text-sm">
+                        <li>Azure</li>
+                        <li>Microsoft 365</li>
+                        <li>Windows Server</li>
+                        <li>Hypervisor</li>
+                    </ul>
+                </div>
+                <div class="skill-card p-4 bg-gray-50 rounded hover:bg-blue-50 transition-colors duration-300">
+                    <h3 class="text-lg font-medium">Programming & Automation</h3>
+                    <ul class="list-disc pl-4 text-sm">
+                        <li>Python</li>
+                        <li>C#</li>
+                        <li>Powershell</li>
+                        <li>REST APIs</li>
+                        <li>Freshservice Automation</li>
+                    </ul>
+                </div>
+                <div class="skill-card p-4 bg-gray-50 rounded hover:bg-blue-50 transition-colors duration-300">
+                    <h3 class="text-lg font-medium">Networking & Security</h3>
+                    <ul class="list-disc pl-4 text-sm">
+                        <li>DNS</li>
+                        <li>DHCP</li>
+                        <li>FortiNet</li>
+                        <li>Network Security</li>
+                        <li>MDM Deployment</li>
+                    </ul>
+                </div>
+                <div class="skill-card p-4 bg-gray-50 rounded hover:bg-blue-50 transition-colors duration-300">
+                    <h3 class="text-lg font-medium">Soft Skills</h3>
+                    <ul class="list-disc pl-4 text-sm">
+                        <li>Project Management</li>
+                        <li>Customer Service</li>
+                        <li>Collaborative Work</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 px-8">
+        <div class="container mx-auto text-center">
+            <p>Explore my projects on <a href="https://github.com/jelpsIT" class="text-blue-400 hover:underline">GitHub</a> | Connect on <a href="https://www.linkedin.com/in/josh-dobson-/" class="text-blue-400 hover:underline">LinkedIn</a></p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <img src="https://github-readme-stats.vercel.app/api?username=jelpsIT&show_icons=true&theme=dark" alt="GitHub stats">
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

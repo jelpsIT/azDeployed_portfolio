@@ -1,85 +1,30 @@
-/* Reset defaults */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    line-height: 1.6;
+/* Font */
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Header */
-header {
-    background-color: #0078d4; /* Azure blue */
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header p {
-    margin: 5px 0;
-    font-size: 1.2em;
-}
-
-/* Sections */
+/* Fade-in animation for sections */
 section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-section h2 {
-    color: #0078d4;
-    border-bottom: 2px solid #0078d4;
-    padding-bottom: 5px;
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
-section ul {
-    list-style-type: square;
-    padding-left: 20px;
+/* Skill card hover effect */
+.skill-card {
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-section li {
-    margin: 10px 0;
+.skill-card:hover {
+    transform: scale(1.05);
 }
 
-/* Skills Container */
-.skills-container {
-    margin-top: 10px;
-}
-
-.skills-container ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.skills-container li {
-    background-color: #e8f0fe;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 3px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-}
-
-footer a {
-    color: #0078d4;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
 }
