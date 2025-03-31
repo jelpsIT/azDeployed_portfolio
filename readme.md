@@ -2,7 +2,7 @@
 A dynamic portfolio site showcasing my transition to Cloud Engineering, deployed on Azure App Service with CI/CD and monitoring.
 
 ## Features
-- **Live URL**: https://az-deployed-portfolio.vercel.app/ [https://jelps-portfolio.azurewebsites.net](https://jelps-portfolio.azurewebsites.net)
+- **Live URL**: https://az-deployed-portfolio.vercel.app/ -- **DOWN** [https://jelps-portfolio.azurewebsites.net](https://jelps-portfolio.azurewebsites.net) **DOWN** -- 
 - **Tech**: HTML, CSS (Tailwind), JavaScript with animations, Poppins font
 - **CI/CD**: Automated deployments via GitHub Actions
 - **Monitoring**: Real-time tracking with Azure Application Insights
